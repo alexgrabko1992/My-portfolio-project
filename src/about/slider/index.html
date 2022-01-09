@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Подключаем JS слайдера -->
+    <script defer src="./main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Разметка слайдера (html код) -->
+    <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__items">
+          <div class="slider__item"><img src="./_MG_1256.JPG" alt="" /></div>
+          <div class="slider__item">Контент 2 слайда</div>
+          <div class="slider__item">Контент 3 слайда</div>
+          <div class="slider__item">Контент 4 слайда</div>
+        </div>
+      </div>
+      <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+      <a
+        class="slider__control slider__control_prev"
+        href="#"
+        role="button"
+        data-slide="prev"
+      ></a>
+      <a
+        class="slider__control slider__control_next"
+        href="#"
+        role="button"
+        data-slide="next"
+      ></a>
+    </div>
+  </body>
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // инициализация слайдера
+      new SimpleAdaptiveSlider(".slider", {
+        loop: true,
+        autoplay: false,
+        interval: 5000,
+        swipe: true,
+      });
+    });
+  </script> -->
+</html>

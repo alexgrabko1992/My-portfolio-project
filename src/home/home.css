@@ -1,0 +1,30 @@
+#home-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+#greeting {
+  padding: 10% 1%;
+}
+
+#greeting p {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#greeting p {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
